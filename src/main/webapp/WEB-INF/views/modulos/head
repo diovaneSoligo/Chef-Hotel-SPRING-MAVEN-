@@ -1,0 +1,23 @@
+	
+	<link rel="icon" href="img/logo.png" />
+	<title>.:: ChefHotel.com ::.</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+    <meta name="author" content="Diovane Soligo" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    
+    <!--Jquery - JS-->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!--Bootstrap - CSS-->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!--Extra - CSS-->
+    <link rel="stylesheet" type="text/css" href="css/extra.css">
+
+    <!--Fonts-->
+    <link href="css/googleapi1.css" rel='stylesheet' type='text/css'>
+    <link href="css/googleapi2.css" rel='stylesheet' type='text/css'>
+
+    

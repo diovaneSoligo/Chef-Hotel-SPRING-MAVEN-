@@ -1,0 +1,37 @@
+/******************************************************************************/
+PROPRIETÁRIO DA WEB-APP
+
+-Nome: DIOVANE SOLIGO
+-Mat.: 201420298
+
+/******************************************************************************/
+INFORMAÇÃO:
+-Nome da aplicação: CHEFHOTEL.com
+-Banco utilizado: Postgresql.
+-Foi utilizado o Eclipse Java EE IDE for Web Developers | Versão: Mars.2 Release (4.5.2).
+-Foi utilizado como sevidor o Tomcat 8.
+
+/******************************************************************************/
+O QUE ALTERAR!
+
+Após fazer a importação do projeto maven para o eclipse, antes de executa-lo
+
+deve-se alterar no pacote --> br.postgresDB <-- na classe --> Conexao.java <--
+
+os dados para a aplicação acessar o banco de dados, 
+
+deve-se alterar nos dois metodos presente na classe para que o programa possa
+criar a base e as tabelas necessarias corretamente. ESTÀ COMENTADO ONDE E O QUE ALTERAR!
+
+(NÃO È NECESSÁRIO CRIAR BANCO E IMPORTAR TABELAS,
+O PROGRAMA FAZ ISSO SOZINHO!, CRIA E ARMAZENA OS DADOS INICIAIS A CADA CADASTRO REALIZADO)
+
+Então ao executar o programa, ao acessa-lo pelo navegador, deve-se fazer o cadastro,
+cada cadastro realizado na aplicação, criará uma nova base de dados no banco, com as tabelas necessária,
+a base de dados será composta por "rf808_ + NUMRO DO CNPJ CADASTRADO", ex.: rf808_12.121.123-0001-12
+
+/******************************************************************************/
+
+Depois de instalado corretamente e dado run no tomcat, basta
+CADASTRAR, EDITAR/ALTERAR, EXCLUIR 
+quartos, hospedes, lembretes, fazer hospedagens, check-outs etc...
